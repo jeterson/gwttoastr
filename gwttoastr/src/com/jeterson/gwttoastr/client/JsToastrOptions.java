@@ -69,7 +69,7 @@ public class JsToastrOptions{
 	public String closeHtml ;
 	
 	@JsProperty
-	public String closeButton;
+	public boolean closeButton;
 	
 	@JsProperty
 	public boolean escapeHtml ;
