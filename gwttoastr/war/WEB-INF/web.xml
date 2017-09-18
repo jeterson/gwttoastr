@@ -5,16 +5,19 @@
          version="2.5"
          xmlns="http://java.sun.com/xml/ns/javaee">
 
-  <!-- Servlets -->
+  <!-- Servlets 
   <servlet>
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>com.jeterson.gwttoastr.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
+  
+  
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/gwttoastr/greet</url-pattern>
   </servlet-mapping>
+  -->
   
   <!-- Default page to serve -->
   <welcome-file-list>
