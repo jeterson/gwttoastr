@@ -2,6 +2,7 @@ package com.jeterson.gwttoastr.client;
 
 
 
+import jsinterop.annotations.JsPackage;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
@@ -11,9 +12,11 @@ import jsinterop.annotations.JsType;
  * @author jeterson
  *
  */
-@JsType
+@JsType(isNative=true, name="Object", namespace=JsPackage.GLOBAL)
 public class JsToastrOptions{
 
+	@JsProperty
+	public String positionClass;
 	
 	@JsProperty
 	public JsFunctions.Function onShown;
