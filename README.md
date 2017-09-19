@@ -1,17 +1,19 @@
 # gwttoastr
 
-Para Adicionar ao Projeto inclua no seu gwt module: <code><inherits name="com.jeterson.gwttoastr.Gwttoastr" /> </code>
+Para Adicionar ao Projeto inclua no seu gwt module: 
+`<inherits name="com.jeterson.gwttoastr.Gwttoastr" />`
 
 Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code>Toastr.JQUERY_IS_INJECTED = true</code>
 
 <h3> Uso</h3>
 
-#basico
+# basico
 <code>Toastr.show("Olá mundo", "Sucesso", ToastrType.SUCCESS);</code>
 
-#Usando eventos
+# Usando eventos
 
-<code>JsToastrOptions opt = new JsToastrOptions();
+<code>
+	JsToastrOptions opt = new JsToastrOptions();
 		opt.onclick = new Function() {
 			
 			@Override
