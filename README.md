@@ -13,7 +13,6 @@ Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code
 
 `
 	JsToastrOptions opt = new JsToastrOptions();
-	
 		opt.onclick = new Function() {
 			
 			@Override
