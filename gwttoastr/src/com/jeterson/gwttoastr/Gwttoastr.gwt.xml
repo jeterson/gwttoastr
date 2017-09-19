@@ -3,15 +3,9 @@
   "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
 <module rename-to='gwttoastr'>
   <inherits name='com.google.gwt.user.User'/>
-
-  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
-
-
-  <entry-point class='com.jeterson.gwttoastr.client.Gwttoastr'/>
-
+  <entry-point class="com.jeterson.gwttoastr.client.Gwttoastr"/>
   <source path='client'/>
   <source path='shared'/>
   <stylesheet src="css/toastr.css"/>
 
-  <add-linker name="xsiframe"/>
 </module>
