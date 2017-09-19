@@ -11,7 +11,7 @@ Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code
 
 # Usando eventos
 
-`
+
 	JsToastrOptions opt = new JsToastrOptions();
 		opt.onclick = new Function() {
 			
@@ -22,4 +22,4 @@ Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code
 			}
 		};
 		Toastr.show("Ola Mundo", "Sucesso", ToastrType.SUCCESS, opt);
-`
+
