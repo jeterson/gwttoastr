@@ -66,6 +66,10 @@ public class Toastr {
 		opt.closeButton = true;
 		show(message, title, toastrType, opt, pos);
 	}
+	
+	public static void show(String message, String title, ToastrType toastrType, JsToastrOptions opt){
+		show(message, title, toastrType, opt, ToastrPosition.TOP_RIGHT);
+	}
 
 	public static void remove(){
 		JsToastr.remove();

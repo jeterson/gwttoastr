@@ -42,7 +42,7 @@ public class JsToastrOptions{
 	public JsFunctions.Function onHidden;
 	
 	@JsProperty
-	public JsFunctions.Function onClick;
+	public JsFunctions.Function onclick;
 	@JsProperty
 	public JsFunctions.Function onCloseClick;
 	
