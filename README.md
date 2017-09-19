@@ -1,4 +1,5 @@
 # gwttoastr
+Versão do plugin Toastr https://github.com/CodeSeven/toastr para GWT
 
 Para Adicionar ao Projeto inclua no seu gwt module: 
 `<inherits name="com.jeterson.gwttoastr.Gwttoastr" />`
