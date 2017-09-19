@@ -5,15 +5,15 @@ Para Adicionar ao Projeto inclua no seu gwt module:
 
 Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code>Toastr.JQUERY_IS_INJECTED = true</code>
 
-<h3> Uso</h3>
 
 # basico
 <code>Toastr.show("Olá mundo", "Sucesso", ToastrType.SUCCESS);</code>
 
 # Usando eventos
 
-<code>
+`
 	JsToastrOptions opt = new JsToastrOptions();
+	
 		opt.onclick = new Function() {
 			
 			@Override
@@ -23,4 +23,4 @@ Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code
 			}
 		};
 		Toastr.show("Ola Mundo", "Sucesso", ToastrType.SUCCESS, opt);
-</code>
+`
