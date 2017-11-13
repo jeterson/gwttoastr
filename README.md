@@ -4,7 +4,6 @@ Versão do plugin Toastr https://github.com/CodeSeven/toastr para GWT
 Para Adicionar ao Projeto inclua no seu gwt module: 
 `<inherits name="com.jeterson.gwttoastr.Gwttoastr" />`
 
-Se você ja tiver o Jquery adicionado no seu projeto, define a propriedade <code>Toastr.JQUERY_IS_INJECTED = true</code>
 
 
 # basico
