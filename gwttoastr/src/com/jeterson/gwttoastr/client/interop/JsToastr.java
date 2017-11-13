@@ -8,10 +8,10 @@ import jsinterop.annotations.JsType;
 
 /**
  * O objeto Toastr
- * Informações sobre os métodos em: https://github.com/CodeSeven/toastr"
+ * Informaï¿½ï¿½es sobre os mï¿½todos em: https://github.com/CodeSeven/toastr"
  * @author jeterson
  * 
- * IMPORTANTE: Esse projeto é uma representação em GWT para o plugin de notificações ToastrNotification
+ * IMPORTANTE: Esse projeto ï¿½ uma representaï¿½ï¿½o em GWT para o plugin de notificaï¿½ï¿½es ToastrNotification
               Voce pode ver mais em: https://github.com/CodeSeven/toastr
  *
  *  Copyright {2017} {Jeterson Miranda Gomes}
@@ -51,7 +51,7 @@ public class JsToastr {
 	@JsMethod(namespace="toastr")
 	public static native void clear();
 
-	@JsMethod
+	@JsMethod(namespace="toastr")
 	public static native void remove();
 
 }
