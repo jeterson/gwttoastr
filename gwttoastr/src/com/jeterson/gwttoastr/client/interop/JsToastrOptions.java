@@ -12,7 +12,7 @@ import jsinterop.annotations.JsType;
  * @author jeterson
  *
  *
- *IMPORTANTE: Esse projeto é uma representação em GWT para o plugin de notificações ToastrNotification
+ *IMPORTANTE: Esse projeto ï¿½ uma representaï¿½ï¿½o em GWT para o plugin de notificaï¿½ï¿½es ToastrNotification
               Voce pode ver mais em: https://github.com/CodeSeven/toastr
  *
  *  Copyright {2017} {Jeterson Miranda Gomes}
@@ -36,15 +36,15 @@ public class JsToastrOptions{
 	public String positionClass;
 	
 	@JsProperty
-	public JsFunctions.Function onShown;
+	public JsToastrFunctions.Function onShown;
 	
 	@JsProperty
-	public JsFunctions.Function onHidden;
+	public JsToastrFunctions.Function onHidden;
 	
 	@JsProperty
-	public JsFunctions.Function onclick;
+	public JsToastrFunctions.Function onclick;
 	@JsProperty
-	public JsFunctions.Function onCloseClick;
+	public JsToastrFunctions.Function onCloseClick;
 	
 	@JsProperty
 	public String showEasing ;

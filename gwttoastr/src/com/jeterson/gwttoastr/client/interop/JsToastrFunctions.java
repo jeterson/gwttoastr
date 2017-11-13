@@ -2,7 +2,7 @@ package com.jeterson.gwttoastr.client.interop;
 
 import jsinterop.annotations.JsFunction;
 /**
- * Representa uma funcão java script
+ * Representa uma funcï¿½o java script
  * @author jeterson
  *
  *
@@ -20,10 +20,10 @@ import jsinterop.annotations.JsFunction;
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-public interface JsFunctions {
+public interface JsToastrFunctions {
 
 	/**
-	 * Funcão com 1 parametro 
+	 * Funcï¿½o com 1 parametro 
 	 * @author jeterson
 	 *
 	 * @param <A>
@@ -35,7 +35,7 @@ public interface JsFunctions {
 	}
 	
 	/**
-	 * Funcção sem parametro
+	 * Funcï¿½ï¿½o sem parametro
 	 * @author jeterson
 	 *
 	 */
