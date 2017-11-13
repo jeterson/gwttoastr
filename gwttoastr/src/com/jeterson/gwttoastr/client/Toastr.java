@@ -6,10 +6,10 @@ import com.jeterson.gwttoastr.client.resources.ResourceInjector;
 import com.jeterson.gwttoastr.client.resources.Resources;
 
 /**
- * Classe para exibição das notificações
+ * Classe para exibiï¿½ï¿½o das notificaï¿½ï¿½es
  * @author jeterson
  * 
- *  IMPORTANTE: Esse projeto é uma representação em GWT para o plugin de notificações ToastrNotification
+ *  IMPORTANTE: Esse projeto ï¿½ uma representaï¿½ï¿½o em GWT para o plugin de notificaï¿½ï¿½es ToastrNotification
  *             Voce pode ver mais em: https://github.com/CodeSeven/toastr
  *
  *  Copyright {2017} {Jeterson Miranda Gomes}
@@ -31,14 +31,18 @@ public class Toastr {
 	public static boolean JQUERY_IS_INJECTED = false;
 
 	static{
-		if(!JQUERY_IS_INJECTED){
+		Gwttoastr.log("Gwttoastr: jQuery carregado - " + Gwttoastr.jQueryIsLoaded());
+		if(!Gwttoastr.jQueryIsLoaded()){
 			ResourceInjector.injectJS(Resources.INSTANCE.jqueryMin());
+			ResourceInjector.injectJS(Resources.INSTANCE.jqueryEasingMin());
+			Gwttoastr.log("jQuery carregado para o plugin gwttoastr");
 		}
-		
-		ResourceInjector.injectJS(Resources.INSTANCE.jqueryEasingMin());
+				
 		ResourceInjector.injectJS(Resources.INSTANCE.toastrMin());
 	}
 
+	
+	
 	public static void show(String message, String title, ToastrType toastrType, JsToastrOptions opt, ToastrPosition pos){
 		opt.positionClass = pos.getValue();
 
